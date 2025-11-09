@@ -1,0 +1,141 @@
+
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Vibhav Nagarwal — Portfolio</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="icon" href="images/vibhav.jpg">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container">
+      <h1 class="logo">Vibhav Nagarwal</h1>
+      <nav class="nav">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#education-skills">Education & Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+
+    <section id="home" class="hero">
+      <div class="container hero-inner">
+        <img src="images/vibhav.jpg" alt="Vibhav Nagarwal" class="avatar">
+        <div class="hero-text">
+          <h2>Hi, I'm Vibhav Nagarwal</h2>
+          <p class="lead">Aspiring Web & Embedded Systems Developer building modern interfaces and efficient firmware.</p>
+          <div class="social">
+            <a href="https://github.com/vibhav1807" target="_blank" rel="noopener">GitHub</a>
+            <a href="https://www.linkedin.com/in/vibhav-nagarwal-ab9789378/" target="_blank" rel="noopener">LinkedIn</a>
+            <a href="mailto:nagarwalvibhav1807@gmail.com">Email</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="about section">
+      <div class="container">
+        <h3>About Me</h3>
+        <p>
+          I am a First Year undergraduate student studying Computer Science and Engineering at Delhi Technological University (Formerly known as Delhi College of Engineering) with a passion for competitive programming. I enjoy turning ideas into functional products and learning new technologies.
+        </p>
+      </div>
+    </section>
+
+    <section id="education-skills" class="section">
+      <div class="container grid">
+        <div class="card">
+          <h4>Education</h4>
+          <ul>
+            <li><strong>B.Tech — Computer Science and Engineering</strong>, Delhi Technological University (2025-present)</li>
+            <li>Intermediate — Science (Class XII), Glorious Public School (2023-2025)</li>
+            <li>High School — Laxman Public School (2011-2023)</li>
+          </ul>
+        </div>
+
+        <div class="card">
+          <h4>Skills</h4>
+          <ul class="skills-list">
+            <li>HTML, CSS</li>
+            <li>C, C++</li>
+            <li>Python</li>
+            <li>Git & GitHub</li>
+            <li>Basic SQL</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="section">
+      <div class="container">
+        <h3>Projects</h3>
+
+        <div class="projects">
+
+          <article class="project">
+            <img src="images/filter.png" alt="Image Filter"/>
+            <div class="project-content">
+              <h4>Image Filter</h4>
+              <p>An image filter which applies some common filters (like blur, sepia, grayscale, etc) on bitmap files.</p>
+              <p class="tags">C • File Handling • Image Processing</p>
+            </div>
+          </article>
+
+          <article class="project">
+            <img src="images/geo-dash.png" alt="Geometry Dash"/>
+            <div class="project-content">
+              <h4>Geometry Dash</h4>
+              <p>A Geometry Dash clone using Scratch, a block-based programming language developed by MIT</p>
+              <p class="tags">Scratch • Video Game</p>
+            </div>
+          </article>
+
+          <article class="project">
+            <img src="images/profile-page.png" alt="Portfolio Website"/>
+            <div class="project-content">
+              <h4>Personal Portfolio Website</h4>
+              <p>This portfolio demonstrates responsive design, accessible markup, and well-organized code comments.</p>
+              <p class="tags">HTML • CSS • Accessibility</p>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section contact">
+      <div class="container">
+        <h3>Contact</h3>
+        <p>If you'd like to reach out, email me at <a href="mailto:nagarwalvibhav1807@gmail.com">nagarwalvibhav1807@gmail.com</a> or connect on <a href="https://www.linkedin.com/in/vibhav-nagarwal-ab9789378/" target="_blank" rel="noopener">LinkedIn</a>.</p>
+
+        <form class="contact-form" action="#" method="post" aria-label="Contact form">
+          <label for="name">Name</label>
+          <input id="name" name="name" type="text" placeholder="Your name" required>
+
+          <label for="email">Email</label>
+          <input id="email" name="email" type="email" placeholder="you@example.com" required>
+
+          <label for="message">Message</label>
+          <textarea id="message" name="message" rows="5" placeholder="Write your message here..."></textarea>
+
+          <button type="submit" class="btn">Send Message</button>
+        </form>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>© 2025 Vibhav Nagarwal. Mini-Project for CS103</p>
+    </div>
+  </footer>
+
+</body>
+</html>
